@@ -1,0 +1,60 @@
+/* Default styles */
+html {
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/* Header  =============== */
+.header {
+  margin-top: 2rem;
+}
+.header__inner {
+  padding: .8rem 1.4rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+.logo a,
+.nav__link a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Content  =============== */
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+  text-align: center;
+}
+
+.profile__subtitle {
+  padding-bottom: 1rem;
+}
+.button__me {
+  padding: 0.5rem 1rem;
+}
+
+.card__about {
+  text-align: left;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
